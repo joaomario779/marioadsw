@@ -1,0 +1,5 @@
+#adicionando rota padrão do pc2 para interface de r2 na rede C
+route add default gw 10.0.3.1
+
+#chamando o ip dinâmico
+dhclient

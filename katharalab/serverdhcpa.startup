@@ -1,0 +1,8 @@
+#subindo a interface do serverdhcpa na rede A
+ifconfig eth0 10.0.1.254/24 up
+
+#adicionando rota padrão para a interface de r1 na rede A
+route add default gw 10.0.1.1
+
+#iniciando dhcpd
+etc/init.d/isc-dhcp-server start

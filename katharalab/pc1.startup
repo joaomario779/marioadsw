@@ -1,0 +1,5 @@
+#adicionando rota padrão do pc1 para interface de r1 na rede A
+route add default gw 10.0.1.1
+
+#chamando o ip dinâmico
+dhclient
